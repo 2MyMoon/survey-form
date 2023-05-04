@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+  <title>Educational Survey Form</title>
+  </head>
+
+<body>
+  
+  <div class="container">
+  <h1 id="title">Welcome to Educational Survey Form</h1>
+  <p id="description">Take the survey and help us be better!</p>
+  </div>
+  <form id="survey-form">
+    <label id="name-label">Name</label>
+    <input id="name" type="text" placeholder="Enter Your Name here" required>
+    <label id="email-label">Email</label>
+    <input id="email" type="email" placeholder="Enter Your Email here" required>
+    <label id="number-label">Age</label>
+    <input id="number" type="number" placeholder="Enter Your Age here" min="1" max="150">
+     
+    
+    
+    <p id="education type">What's your Education type?</p>
+    <select id="dropdown">
+      <option>Distant</option>
+      <option>Full-Time</option>
+      </select>
+
+    <p id="gender">What's your gender</p>
+    <input name="gender" type="radio" value="Female">
+    <label name="female-label">Female</label>
+    <input name="gender" type="radio" value="Male">
+    <label name="male-label">Male</label>
+    <p id="gender">Would you like to receive some information about update></p>
+    <input name="answer" type="radio" value="yes" >
+    <label name="yes-label">Yes</label>
+    <input name="answer" type="radio" value="no" >
+    <label name="no-label">No</label>
+    <p>Where do you study?</p>
+    <label><input name="education-degree" value="university" type="checkbox">University</label>
+    <label><input name="education-degree" value="School" type="checkbox">School</label>
+   <label><input name="education-degree" value="College" type="checkbox">College</label>
+
+  <p>What would you want to see?</p>
+  <textarea id="wishes" placeholder="Write your wishes here..."></textarea>
+
+
+  <hr>
+  <button id="submit" type="submit">Submit</button>
+  
+
+
+
+</body>
+
+
+</html>
